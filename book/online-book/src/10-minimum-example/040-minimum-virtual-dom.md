@@ -316,8 +316,8 @@ const mountChildren = (
 
 ```ts
 const processText = (
-  n1: string | null,
-  n2: string,
+  n1: VNode | null,
+  n2: VNode,
   container: RendererElement
 ) => {
   if (n1 == null) {
